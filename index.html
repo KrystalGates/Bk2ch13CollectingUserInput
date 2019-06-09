@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+      <form action="" id="wish">
+    <fieldset>
+      <label for="favThing">Favorite Thing</label>
+      <input
+        type="text"
+        id="favThing"
+        placeholder="Enter your favorite thing!"
+        autofocus
+      />
+    </fieldset>
+    <fieldset>
+      <label for="store">Where can you purchase it?</label>
+      <input type="text" id="store" placeholder="Enter a location here!" />
+    </fieldset>
+</form>
+<button id="saveEntry">Save to wishlist!</button>
+    <article id="wishList"></article>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
